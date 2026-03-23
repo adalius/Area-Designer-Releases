@@ -3,6 +3,22 @@
 All notable changes to Area Designer are listed here, newest first.
 ## 
 
+## Version 1.0.5
+
+### Improvements
+
+- The **WC List** and **AC List** fields in Items/Objects and the **Increase
+  WCS** and **Increase ACS** fields in Monsters have been replaced with ten
+  individual labelled entry boxes — one per damage type (edged, blunt, fire,
+  ice, acid, electric, mind, energy, poison, radiation). Each box accepts an
+  integer from `-9999` to `9999` and turns red on focus-out if the value
+  is invalid. The underlying database storage and file export format are
+  unchanged.
+- The Windows MSI installer now creates a **Start Menu** shortcut under
+  *Programs* automatically during installation and removes it on uninstall.
+  No user prompt is shown.
+## 
+
 ## Version 1.0.4
 
 ### New Features
